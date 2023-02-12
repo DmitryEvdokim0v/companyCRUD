@@ -21,6 +21,10 @@ return new class extends Migration
             $table->rememberToken()->nullable(true);
             $table->timestamps();
         });
+        DB::table('users')->insert([
+            ['email' => 'admin@admin.com', 'password' => '$2y$10$XMW8p5CACqBB5cXOV8hdDeA77zIkEt8gDBjaJp9DglORKBIgnZR7S'],
+
+        ]);
     }
 
     /**
