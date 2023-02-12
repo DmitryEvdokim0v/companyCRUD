@@ -13,8 +13,8 @@
         <input type="text" name="address" id="address" class="form-control" required="required"></br>
         <label>Номер телефона</label></br>
         <input type="text" name="number" id="number" class="form-control" required="required"></br>
-        {{-- <label>Количество товаров</label></br>
-        < type="text" name="count_of_goods" id="mobile" class="form-control" value="0"></br> --}}
+        {{-- <label>Количество товаров</label></br> --}}
+        <input type="hidden" name="count_of_goods" id="mobile" class="form-control" value="0"></br>
         <input type="submit" value="Сохранить" class="btn btn-success"></br>
     </form>
   
